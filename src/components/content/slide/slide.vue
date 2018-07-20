@@ -4,7 +4,7 @@
 		<div v-for="(item,index) in list" class="slide-wrap"  :key="index">
 			<router-link class="title" tag="div"  :to="{ path: item.path }" >
 				<i :class="icons[index]" class="icons"></i>
-				<span @click="showList(item)" class="sub-title" v-show="this.$store.state.contentShow">{{item.title}}</span>
+				<span @click="showList(item)" class="sub-title" >{{item.title}}</span>
 				<i class="icon-ml el-icon-arrow-right" v-if="item.children" v-show="contentShow" :class="!item.isShow?'rightTir90':'rightTir0' "></i>
 			</router-link >
 			
