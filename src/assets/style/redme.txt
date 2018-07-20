@@ -1,0 +1,5 @@
+﻿
+mixins.less 用于写常用的 css  比如 text-align: center 可以简写 如 mixins.less
+
+varsables.less  将一些常用的 样式保存 $bgColor = #ccc 
+
